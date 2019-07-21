@@ -50,5 +50,8 @@ public class JSON2CSV {
             e.printStackTrace();
         }
     }
+    private JSON2CSV() {
+    }
+
 
 }

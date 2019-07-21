@@ -273,4 +273,7 @@ public class KafkaConsumerHelper {
             }
         }
     }
+    private KafkaConsumerHelper() {
+    }
+
 }

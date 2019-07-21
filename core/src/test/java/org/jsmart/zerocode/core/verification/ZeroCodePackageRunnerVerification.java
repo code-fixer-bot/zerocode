@@ -10,5 +10,8 @@ import org.junit.runner.RunWith;
 //@RunWith(ZeroCodePackageRunner.class)
 @RunWith(TestOnlyZeroCodePackageRunner.class)
 public class ZeroCodePackageRunnerVerification {
+    private ZeroCodePackageRunnerVerification() {
+    }
+
 
 }

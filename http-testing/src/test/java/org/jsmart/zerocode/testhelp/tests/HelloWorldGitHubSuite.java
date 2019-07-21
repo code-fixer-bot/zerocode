@@ -12,4 +12,7 @@ import org.junit.runner.RunWith;
 @RunWith(ZeroCodePackageRunner.class)
 @TestPackageRoot("helloworld_github_REST_api") //<--- Root of the package to pick all tests including sub-folders
 public class HelloWorldGitHubSuite {
+    private HelloWorldGitHubSuite() {
+    }
+
 }

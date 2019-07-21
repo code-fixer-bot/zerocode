@@ -98,4 +98,7 @@ public class RunnerUtils {
             throw new RuntimeException(errMessage + e);
         }
     }
+    private RunnerUtils() {
+    }
+
 }

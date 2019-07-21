@@ -11,5 +11,8 @@ import org.junit.runner.RunWith;
 @TestPackageRoot("01_verification_test_cases")
 @RunWith(TestOnlyZeroCodePackageRunner.class)
 public class ZeroCodePackageRunnerIgnoreTest {
+    private ZeroCodePackageRunnerIgnoreTest() {
+    }
+
 
 }

@@ -31,4 +31,7 @@ public class HeaderUtils {
             requestBuilder.removeHeaders(key);
         }
     }
+    private HeaderUtils() {
+    }
+
 }

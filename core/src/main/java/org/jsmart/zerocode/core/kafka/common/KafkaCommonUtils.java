@@ -15,4 +15,7 @@ public class KafkaCommonUtils {
             }
         });
     }
+    private KafkaCommonUtils() {
+    }
+
 }

@@ -26,5 +26,8 @@ public class ServiceTypeUtils {
 
         return serviceType;
     }
+    private ServiceTypeUtils() {
+    }
+
 
 }

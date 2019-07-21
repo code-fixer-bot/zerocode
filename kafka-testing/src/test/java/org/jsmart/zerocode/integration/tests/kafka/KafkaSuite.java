@@ -39,4 +39,7 @@ import org.junit.runners.Suite;
 })
 @RunWith(Suite.class)
 public class KafkaSuite {
+    private KafkaSuite() {
+    }
+
 }

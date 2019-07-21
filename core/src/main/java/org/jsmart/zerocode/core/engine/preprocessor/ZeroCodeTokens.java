@@ -34,4 +34,7 @@ public class ZeroCodeTokens {
                 RECORD_DUMP
         );
     }
+    private ZeroCodeTokens() {
+    }
+
 }

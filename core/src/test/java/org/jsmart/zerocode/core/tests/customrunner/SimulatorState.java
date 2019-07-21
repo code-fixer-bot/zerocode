@@ -10,6 +10,9 @@ public class SimulatorState {
     public static void setStarted(boolean started) {
         SimulatorState.started = started;
     }
+    private SimulatorState() {
+    }
+
 
 
 }

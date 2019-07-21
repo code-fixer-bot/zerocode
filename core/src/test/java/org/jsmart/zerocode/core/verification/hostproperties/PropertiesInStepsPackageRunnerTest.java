@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
 @TestPackageRoot("host_keys")
 @RunWith(TestOnlyZeroCodePackageRunner.class)
 public class PropertiesInStepsPackageRunnerTest {
+    private PropertiesInStepsPackageRunnerTest() {
+    }
+
 
 }
 

@@ -9,5 +9,8 @@ import org.junit.runner.RunWith;
 @TestPackageRoot("01_verification_test_cases")
 @RunWith(ZeroCodePackageRunner.class)
 public class SmartPackagedVerification {
+    private SmartPackagedVerification() {
+    }
+
 
 }

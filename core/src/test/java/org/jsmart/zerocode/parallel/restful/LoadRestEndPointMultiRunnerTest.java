@@ -12,5 +12,8 @@ import org.junit.runner.RunWith;
 //@TestMapping(testClass = JunitRestTestSample.class, testMethod = "testGetCallToHome_fail")
 @RunWith(ZeroCodeMultiLoadRunner.class)
 public class LoadRestEndPointMultiRunnerTest {
+    private LoadRestEndPointMultiRunnerTest() {
+    }
+
 
 }

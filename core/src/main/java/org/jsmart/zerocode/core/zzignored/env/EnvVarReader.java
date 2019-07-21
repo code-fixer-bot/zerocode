@@ -21,4 +21,7 @@ public class EnvVarReader {
         System.out.println("getEnv : " + System.getenv("NEW_VAR"));
 
     }
+    private EnvVarReader() {
+    }
+
 }

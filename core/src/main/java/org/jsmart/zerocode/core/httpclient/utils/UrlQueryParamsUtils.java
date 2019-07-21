@@ -39,5 +39,8 @@ public class UrlQueryParamsUtils {
         LOGGER.info("### qualifiedQueryParams : " + qualifiedQueryParam);
         return qualifiedQueryParam;
     }
+    private UrlQueryParamsUtils() {
+    }
+
 
 }

@@ -22,10 +22,16 @@ public class ZeroCodePackageRunnerScenariosTest {
             @Scenario("unit_tests/folder_b/test_case_2.json"), //any valid path
     })
     public static class ScenarioTestFlowExampleSelectedTest {
+        private ScenarioTestFlowExampleSelectedTest() {
+        }
+
     }
 
     @TestPackageRoot("03_test_one_multi_steps")
     public static class ScenarioTestFlowSelectedExampleTest {
+        private ScenarioTestFlowSelectedExampleTest() {
+        }
+
     }
 
     @Before

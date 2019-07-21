@@ -78,5 +78,8 @@ public class FileUploadUtils {
         }
         return resource.getPath();
     }
+    private FileUploadUtils() {
+    }
+
 
 }

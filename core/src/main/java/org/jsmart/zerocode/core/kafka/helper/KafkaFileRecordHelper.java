@@ -107,4 +107,7 @@ public class KafkaFileRecordHelper {
     private static String osIndependentNewLine() {
         return System.getProperty("line.separator");
     }
+    private KafkaFileRecordHelper() {
+    }
+
 }

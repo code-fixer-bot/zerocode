@@ -7,5 +7,8 @@ import org.junit.runner.RunWith;
 @TestPackageRoot("02_test_default_cases")
 @RunWith(ZeroCodePackageRunner.class)
 public class DefaultRunnerTestRunManuallyOnly {
+    private DefaultRunnerTestRunManuallyOnly() {
+    }
+
 
 }

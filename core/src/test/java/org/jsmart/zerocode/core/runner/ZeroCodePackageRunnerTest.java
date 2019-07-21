@@ -25,6 +25,9 @@ public class ZeroCodePackageRunnerTest {
 
     @TestPackageRoot("03_test_one_multi_steps")
     public static class ScenarioTestFlowExampleTest {
+        private ScenarioTestFlowExampleTest() {
+        }
+
     }
 
     @Before
@@ -106,5 +109,8 @@ public class ZeroCodePackageRunnerTest {
 
     @TestPackageRoot("06_test_with_place_holders")
     public class MultiStepWithPlaceHolderTestClass {
+        private MultiStepWithPlaceHolderTestClass() {
+        }
+
     }
 }

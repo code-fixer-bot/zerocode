@@ -9,5 +9,8 @@ import org.junit.runner.RunWith;
 @TestPackageRoot("07_some_test_cases")
 @RunWith(TestOnlyZeroCodePackageRunner.class)
 public class SmartPackagedTestCases {
+    private SmartPackagedTestCases() {
+    }
+
 
 }

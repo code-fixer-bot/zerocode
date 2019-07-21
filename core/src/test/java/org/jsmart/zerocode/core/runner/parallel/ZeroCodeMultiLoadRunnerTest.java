@@ -32,7 +32,10 @@ public class ZeroCodeMultiLoadRunnerTest {
             @TestMapping(testClass = JunitRestTestSample.class, testMethod = "testGetCallToHome_fail"),
     })
     @RunWith(ZeroCodeMultiLoadRunner.class)
-    public class ExampleRunnerWithGroupTest { //note "public" is necessary
+    public class ExampleRunnerWithGroupTest {
+               //note "public" is necessary
+               private ExampleRunnerWithGroupTest() {
+               }
 
     }
 
@@ -40,6 +43,9 @@ public class ZeroCodeMultiLoadRunnerTest {
     @TestMapping(testClass = JunitRestTestSample.class, testMethod = "testGetCallToHome_pass")
     @RunWith(ZeroCodeMultiLoadRunner.class)
     public class ExampleRunnerTest {
+        private ExampleRunnerTest() {
+        }
+
 
     }
 
@@ -47,6 +53,9 @@ public class ZeroCodeMultiLoadRunnerTest {
     @LoadWith("load_config_test.properties")
     @RunWith(ZeroCodeMultiLoadRunner.class)
     public class ExampleRunnerWithoutMappingTest {
+        private ExampleRunnerWithoutMappingTest() {
+        }
+
     }
 
     @LoadWith("load_config_test.properties")
@@ -54,12 +63,18 @@ public class ZeroCodeMultiLoadRunnerTest {
     @TestMapping(testClass = JunitRestTestSample.class, testMethod = "testGetCallToHome_fail")
     @RunWith(ZeroCodeMultiLoadRunner.class)
     public class ExampleRunnerMultiMappingTest {
+        private ExampleRunnerMultiMappingTest() {
+        }
+
     }
 
     @LoadWith("load_config_test.properties")
     @TestMapping(testClass = JunitRestTestSample.class, testMethod = "dodgyAndInvalidTestMethod")
     @RunWith(ZeroCodeMultiLoadRunner.class)
     public class ExampleRunnerInvalidMethodTest {
+        private ExampleRunnerInvalidMethodTest() {
+        }
+
     }
 
     @Before

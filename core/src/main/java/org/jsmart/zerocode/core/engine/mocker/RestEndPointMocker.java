@@ -161,5 +161,8 @@ public class RestEndPointMocker {
 
         return 200;
     }
+    private RestEndPointMocker() {
+    }
+
 
 }

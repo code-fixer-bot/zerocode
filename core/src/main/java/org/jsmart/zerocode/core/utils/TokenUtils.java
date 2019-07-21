@@ -122,4 +122,7 @@ public class TokenUtils {
                     + "', details:" + e);
         }
     }
+    private TokenUtils() {
+    }
+
 }

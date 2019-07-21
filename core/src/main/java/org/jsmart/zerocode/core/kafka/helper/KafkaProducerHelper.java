@@ -83,5 +83,8 @@ public class KafkaProducerHelper {
             return RAW;
         }
     }
+    private KafkaProducerHelper() {
+    }
+
 
 }

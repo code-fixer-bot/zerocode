@@ -45,6 +45,9 @@ public class JacksonCsv {
         }
 
     }
+    private JacksonCsv() {
+    }
+
 }
 
 //@JsonPropertyOrder({ "firstName", "lastName", "age"})

@@ -15,5 +15,8 @@ import org.junit.runner.RunWith;
 })
 @RunWith(ZeroCodeMultiLoadRunner.class)
 public class LoadRestEndPointMultiRunnerGroupTest {
+    private LoadRestEndPointMultiRunnerGroupTest() {
+    }
+
 
 }

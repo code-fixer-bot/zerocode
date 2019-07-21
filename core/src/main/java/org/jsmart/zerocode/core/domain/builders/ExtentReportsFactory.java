@@ -89,5 +89,8 @@ public class ExtentReportsFactory {
     public static String getReportName() {
         return extentHtmlReporter.config().getReportName();
     }
+    private ExtentReportsFactory() {
+    }
+
 
 }

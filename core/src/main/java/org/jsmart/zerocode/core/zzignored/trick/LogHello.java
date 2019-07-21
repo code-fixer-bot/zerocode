@@ -9,4 +9,7 @@ public class LogHello {
     public static void main(String[] args) {
         LOGGER.info("###Hello - " + LogHello.class.getName());
     }
+    private LogHello() {
+    }
+
 }

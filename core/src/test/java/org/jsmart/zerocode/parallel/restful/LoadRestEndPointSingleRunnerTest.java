@@ -9,5 +9,8 @@ import org.junit.runner.RunWith;
 @TestMapping(testClass = JunitRestTestSample.class, testMethod = "testGetCallToHome_pass")
 @RunWith(ZeroCodeLoadRunner.class)
 public class LoadRestEndPointSingleRunnerTest {
+    private LoadRestEndPointSingleRunnerTest() {
+    }
+
 
 }

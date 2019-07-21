@@ -14,5 +14,8 @@ import org.junit.runner.RunWith;
 @RunWith(NewPortTestZeroCodeUnitRunner.class)
 //@RunWith(ZeroCodePackageRunner.class)
 public class ZeroCodeEnvPropertyReaderPackageTest {
+    private ZeroCodeEnvPropertyReaderPackageTest() {
+    }
+
 
 }

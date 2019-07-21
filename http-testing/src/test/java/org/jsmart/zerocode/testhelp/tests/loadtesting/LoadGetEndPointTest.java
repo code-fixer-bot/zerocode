@@ -10,5 +10,8 @@ import org.junit.runner.RunWith;
 @TestMapping(testClass = TestGitGubEndPoint.class, testMethod = "testGitHubGET_load")
 @RunWith(ZeroCodeLoadRunner.class)
 public class LoadGetEndPointTest {
+    private LoadGetEndPointTest() {
+    }
+
 
 }

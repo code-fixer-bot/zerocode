@@ -130,6 +130,9 @@ public class LoadTestMain {
         }
         System.out.println("Now Finished all threads execution");
     }
+    private LoadTestMain() {
+    }
+
 
 }
 
